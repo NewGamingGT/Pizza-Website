@@ -1,61 +1,50 @@
 [
 	{
-		"name" : "pizza 1",
-		"img" : "pizza1"
+		"name" : "Margherita",
+		"ingredients" : "Tomato sauce, mozzarella and oregano",
+		"price" : 15
 	},
 
 	{
-		"name" : "pizza 2",
-		"img" : "pizza2"
+		"name" : "Marinara",
+		"ingredients" : "Tomato sauce, garlic and basil",
+		"price" : 15
 	},
 
 	{
-		"name" : "pizza 3",
-		"img" : "pizza3"
+		"name" : "Quattro Stagioni",
+		"ingredients" : "Tomato sauce, mozzarella, mushrooms, ham, artichokes, olives and oregano",
+		"price" : 30
 	},
 
 	{
-		"name" : "pizza 4",
-		"img" : "pizza4"
+		"name" : "Carbonara",
+		"ingredients" : "Tomato sauce, mozzarella, parmesan, eggs and bacon",
+		"price" : 25
 	},
 
 	{
-		"name" : "pizza 5",
-		"img" : "pizza5"
+		"name" : "Frutti di Mare",
+		"ingredients" : "Tomato sauce and seafood",
+		"price" : 10
 	},
 
 	{
-		"name" : "pizza 6",
-		"img" : "pizza6"
+		"name" : "Quattro Formaggi",
+		"ingredients" : "Tomato sauce, mozzarella, parmesan, gorgonzola cheese, artichokes and oregano",
+		"price" : 30
 	},
 
 	{
-		"name" : "pizza 7",
-		"img" : "pizza7"
+		"name" : "Crudo",
+		"ingredients" : " Tomato sauce, mozzarella and Parma ham",
+		"price" : 15
 	},
 
 	{
-		"name" : "pizza 8",
-		"img" : "pizza8"
-	},
-
-	{
-		"name" : "pizza 9",
-		"img" : "pizza9"
-	},
-
-	{
-		"name" : "pizza 10",
-		"img" : "pizza10"
-	},
-
-	{
-		"name" : "pizza 11",
-		"img" : "pizza11"
-	},
-
-	{
-		"name" : "pizza 12",
-		"img" : "pizza12"
+		"name" : "Napoli",
+		"ingredients" : "Tomato sauce, mozzarella, oregano and anchovies",
+		"price" : 20
 	}
+
 ]

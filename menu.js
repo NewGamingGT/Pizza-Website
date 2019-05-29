@@ -1,4 +1,4 @@
-let container = document.querySelector("#container");
+let menu = document.querySelector(".menu");
 
 function readJSON(path) {
     var xhr = new XMLHttpRequest();
@@ -9,25 +9,26 @@ function readJSON(path) {
           var file = new File([this.response], 'temp');
           var fileReader = new FileReader();
           fileReader.addEventListener('load', function(){
-			   let menu = JSON.parse(fileReader.result);
-			   for (let i = 0; i < menu.length; i++)
+			   let menuList = JSON.parse(fileReader.result);
+			   for (let i = 0; i < menuList.length; i++)
 			   {
 					let item = document.createElement("div");
 					item.className = "item";
-					container.appendChild(item);
+					menu.appendChild(item);
 
-					let imageContainer = document.createElement("div");
-					imageContainer.className = "imageContainer";
+					let price = document.createElement("h2");
+					price.className = "price";
+					price.textContent = `$${menuList[i].price}`;
 
-					let image = document.createElement("img");
-					image.src = `img/menu/${menu[i].img}.jpg`;
-					imageContainer.appendChild(image);
+					let foodName = document.createElement("h2");
+					foodName.textContent = menuList[i].name;
 
-					let menuName = document.createElement("p");
-					menuName.textContent = menu[i].name;
+					let ingredients = document.createElement("p");
+					ingredients.textContent = menuList[i].ingredients;
 
-					item.appendChild(imageContainer);
-					item.appendChild(menuName);
+					item.appendChild(price);
+					item.appendChild(foodName);
+					item.appendChild(ingredients);
 
 			   }
           });
