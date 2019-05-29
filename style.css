@@ -1,0 +1,130 @@
+@font-face {
+	font-family: manrope;
+	src: url("manrope-thin.otf"); }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: manrope, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+header ul,header li{
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+header img {
+	width: 50px;
+	vertical-align: top;
+}
+
+header ul {
+	float: right;
+}
+
+li {
+	list-style: none;
+	margin: 5px;
+	padding: 5px;
+	font-size: 1.25em;
+}
+
+header {
+	padding: 1em;
+}
+
+.leftButton, .rightButton {
+	background: none;
+	border: none;
+	color: white;
+	font-size: 50px;
+	cursor: pointer;
+	outline: none;
+}
+
+.leftButton {
+	float: left;
+}
+
+.rightButton {
+	float: right;
+}
+
+.mainContent button {
+	height: calc(100vh - 85px);
+	width: 5%;
+}
+
+.wrapper {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.mainContent {
+	background: url(img/header/pizza1.jpg) no-repeat center /cover;
+	background-attachment: fixed;
+	height: calc(100vh - 85px);
+	color: white;
+}
+
+.content {
+	padding-top: calc(50vh - 85px - 101px/2);
+	text-align: center;
+}
+
+.content a {
+	font-size: 1.2em;
+}
+
+.mainContent a {
+	border: solid white;
+	padding: 1em 1.25em;
+}
+
+.mainContent h1 {
+	margin-bottom: 20px;
+}
+
+#title {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-color: black;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	font-weight: normal;
+}
+
+#container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.imageContainer {
+	overflow: hidden;
+	height: 250px;
+}
+
+.item .imageContainer img {
+	object-fit: cover;
+	width: 250px;
+	height: 250px;
+	transition: transform .5s ease;
+}
+
+.item .imageContainer img:hover{
+	transform: scale(1.2);
+}
+
+.item p {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-bottom: 50px;
+}

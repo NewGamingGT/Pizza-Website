@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Welcome</title>
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<a href="index.html"><img src="logo.svg" alt="Pizza"></a>
+			<a href="#title"><li>Our Pizzas</li></a>
+			<ul>
+				<a href="#"><li>About us</li></a>
+				<a href="#"><li>Locate us</li></a>
+				<a href="#"><li>Order now</li></a>
+			</ul>
+		</div>
+	</header>
+
+	<main>
+		<div class="mainContent">
+			<button onclick="previousImage()" class="leftButton"><</button>
+			<button onclick="nextImage()" class="rightButton">></button>
+			<div class="content">
+				<h1>Our new delicious pizza</h1>
+				<a href="#">Find out more</a>
+			</div>
+		</div>
+		<div class="wrapper">
+			<h1 id="title">Our Pizzas</h1>
+			<div id="container"></div>
+		</div>
+	</main>
+
+	<script src="header.js"></script>
+	<script src="menu.js"></script>
+</body>
+</html>
