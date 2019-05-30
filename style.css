@@ -99,7 +99,17 @@ header {
 	border-color: black;
 	border-width: 0 0 1px 0;
 	border-style: solid;
-	font-weight: normal;
+}
+
+#aboutUs {
+	margin-top: 75px;
+	margin-bottom: 100px;
+}
+
+#aboutUs p {
+	font-size: 1.25em;
+	margin: 50px 0;
+	line-height: 1.7;
 }
 
 .images {
