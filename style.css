@@ -58,7 +58,7 @@ header {
 }
 
 .mainContent button {
-	height: calc(100vh - 85px);
+	height: 100vh;
 	width: 5%;
 }
 
@@ -70,8 +70,9 @@ header {
 .mainContent {
 	background: url(img/header/pizza1.jpg) no-repeat center /cover;
 	background-attachment: fixed;
-	height: calc(100vh - 85px);
+	height: 100vh;
 	color: white;
+	overflow: visible;
 }
 
 .content {
@@ -84,7 +85,7 @@ header {
 	font-size: 1.2em;
 }
 
-.mainContent a {
+.mainContent .content a {
 	border: solid white;
 	padding: 1em 1.25em;
 }
@@ -104,12 +105,13 @@ header {
 #aboutUs {
 	margin-top: 75px;
 	margin-bottom: 100px;
+	padding: 5px 20px;
 }
 
 #aboutUs p {
-	font-size: 1.25em;
+	font-size: 1.5em;
 	margin: 50px 0;
-	line-height: 1.7;
+	line-height: 1.5;
 }
 
 .images {
