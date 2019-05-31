@@ -1,6 +1,7 @@
 @font-face {
 	font-family: manrope;
-	src: url("manrope-thin.otf"); }
+	src: url("manrope-thin.otf");
+}
 
 * {
 	margin: 0;
@@ -150,6 +151,11 @@ header {
 	content: "";
 	clear: both;
 	display: table;
+}
+
+.default {
+	color: #333 !important;
+	background-color: #f3f3f3 !important;
 }
 
 footer p {
