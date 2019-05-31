@@ -8,32 +8,32 @@ function previousImage()
 	if (imagePos > 0)
 	{
 		imagePos--;
-		mainContent.style.backgroundImage = `url(img/header/${images[imagePos]})`;
+		mainContent.style.backgroundImage = `linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(img/header/${images[imagePos]})`;
 	}
 	else {
 		imagePos = images.length - 1;
-		mainContent.style.backgroundImage = `url(img/header/${images[imagePos]})`;
+		mainContent.style.backgroundImage = `linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(img/header/${images[imagePos]})`;
 	}
 }
 
 function nextImage() {
 	if (imagePos < images.length - 1) {
 		imagePos++;
-		mainContent.style.backgroundImage = `url(img/header/${images[imagePos]})`;
+		mainContent.style.backgroundImage = `linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(img/header/${images[imagePos]})`;
 	}
 	else {
 		imagePos = 0;
-		mainContent.style.backgroundImage = `url(img/header/${images[imagePos]})`;
+		mainContent.style.backgroundImage = `linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(img/header/${images[imagePos]})`;
 	}
 }
 
 let interval = setInterval( () => {
 	if (imagePos < images.length - 1) {
 		imagePos++;
-		mainContent.style.backgroundImage = `url(img/header/${images[imagePos]})`;
+		mainContent.style.backgroundImage = `linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(img/header/${images[imagePos]})`;
 	}
 	else {
 		imagePos = 0;
-		mainContent.style.backgroundImage = `url(img/header/${images[imagePos]})`;
+		mainContent.style.backgroundImage = `linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(img/header/${images[imagePos]})`;
 	}
 }, 10000);
