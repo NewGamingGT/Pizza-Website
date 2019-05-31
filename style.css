@@ -61,6 +61,7 @@ header {
 .mainContent button {
 	height: 100vh;
 	width: 5%;
+	margin-top: -93px;
 }
 
 .wrapper {
@@ -159,11 +160,11 @@ header {
 }
 
 footer p {
-	color: white;
+	color: #f9f9f9;
 }
 
 footer {
 	margin-top: 50px;
-	background-color: #000000;
+	background-color: #1e1e1e;
 	padding: 25px 0;
 }
