@@ -13,7 +13,6 @@
 	font-feature-settings: "kern", "liga";
 }
 
-
 header ul,header li{
 	display: inline-block;
 }
@@ -172,7 +171,18 @@ footer {
 	padding: 25px 0;
 }
 
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 1175px) {
+	.content h1 {
+		font-size: 4em;
+	}
+}
+
+@media only screen and (max-width: 895px) {
+
+	.content h1 {
+		font-size: 3em;
+	}
+
 	header ul {
 		float: none;
 		display: block;
@@ -198,6 +208,25 @@ footer {
 		width: 100%;
 	}
 	.price {
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	header ul li {
+		text-align: center;
+		display: block;
+	}
+	.default {
+		width: 100%;
+	}
+	.menu {
+		padding-left: 10px;
+	}
+	.content a {
+		display: none;
+	}
+	.content h1 {
 		margin: 0;
 	}
 }
