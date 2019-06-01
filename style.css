@@ -178,6 +178,14 @@ footer {
 		font-size: 3em;
 	}
 
+	.content {
+		padding-top: calc(50vh - 112px - 151px / 2);
+	}
+
+	.mainContent button {
+		margin-top: -155px;
+	}
+
 	header ul {
 		float: none;
 		display: block;
@@ -223,5 +231,9 @@ footer {
 	}
 	.content h1 {
 		margin: 0;
+	}
+
+	#title {
+		margin-left: 10px;
 	}
 }
