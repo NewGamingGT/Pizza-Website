@@ -156,11 +156,6 @@ header {
 	display: table;
 }
 
-.default {
-	color: #333 !important;
-	background-color: #f3f3f3 !important;
-}
-
 footer p {
 	color: #f9f9f9;
 }
@@ -177,7 +172,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 895px) {
+@media only screen and (max-width: 995px) {
 
 	.content h1 {
 		font-size: 3em;
@@ -193,7 +188,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 745px) {
+@media only screen and (max-width: 845px) {
 	.wrapper {
 		width: 100%;
 	}
@@ -212,7 +207,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 475px) {
 	header ul li {
 		text-align: center;
 		display: block;
