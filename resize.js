@@ -1,3 +1,5 @@
+window.location.href = "https://newgaminggt.github.io/Pizza-Website/index2.html";
+
 if (window.innerWidth <= 900 || document.body.clientWidth <= 900)
 {
 	window.location.href = "https://newgaminggt.github.io/Pizza-Website/index2.html";
@@ -8,7 +10,7 @@ else
 }
 
 
-window.onresize = function() {
+document.addEventListener ("onresize",function() {
 	if (window.innerWidth <= 900 || document.body.clientWidth <= 900)
 	{
 		window.location.href = "https://newgaminggt.github.io/Pizza-Website/index2.html";
@@ -17,4 +19,4 @@ window.onresize = function() {
 	{
 		window.location.href = "https://newgaminggt.github.io/Pizza-Website/index.html";
 	}
-};
+});
