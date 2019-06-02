@@ -1,0 +1,142 @@
+@font-face {
+	font-family: manrope;
+	src: url("manrope-thin.otf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: manrope,'Courier New', Courier, monospace;
+	scroll-behavior: smooth;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.toMenu {
+	vertical-align: top;
+	font-size: 1.25em;
+	margin-left: 10px;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(img/header/pizza1.jpg) no-repeat center /cover;
+	background-attachment: fixed;
+	color: white;
+	width: 100vw;
+	height: 50vh;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+}
+
+li {
+	font-size: 1.1em;
+}
+
+.logo {
+	width: 35px;
+}
+
+.mainTitle {
+	margin: 0 auto 0;
+	text-align: center;
+}
+
+.arrow {
+	margin-top: 20px;
+	width: 10%;
+}
+
+main {
+	margin-top: 10%;
+}
+
+h1 {
+	font-size: 1.25em;
+	line-height: 2.5;
+}
+
+p {
+	font-size: 1em;
+}
+
+#aboutUs {
+	margin-bottom: 10px;
+}
+
+#menuTitle {
+	border-style: solid;
+	border-width: 0  0 1px;
+	border-color: black;
+	margin-top: 30px;
+}
+
+.item {
+	margin-bottom: 10px;
+}
+
+.price {
+	float: right;
+}
+
+.menuTitle {
+	margin-top: 10px;
+	text-align: center;
+}
+
+img {
+	width: 100vw;
+}
+
+.images {
+	overflow: hidden;
+}
+
+footer p {
+	color: #f9f9f9;
+}
+
+footer {
+	margin-top: 50px;
+	background-color: #1e1e1e;
+	padding: 25px 0;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+@media (min-width:550px) {
+	ul {
+		float: right;
+		margin-top: 1px;
+	}
+	li {
+		margin-right: 10px;
+		font-size: 1.25em;
+	}
+	h1 {
+		font-size: 1.5em;
+	}
+}
+
